@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+#quote-box {
+  width: 600px;
+  height: 300px;
+}
+#text{
+  font-family: 'Raleway',sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+#quote-box .quote-author{
+text-align: right;
+}
+#quote-box #new-quote{
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 0.85em;
+  height: 38px;
+  padding:8px 18px 6px 18px;
+  background-color: rgb(155, 89, 182);
+}
+#quote-box #new-quote:hover{
+opacity: 0.9;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
